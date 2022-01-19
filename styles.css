@@ -1,0 +1,20 @@
+.cell {
+    position: relative;
+    height:19%;
+    width:19%;
+    padding:0px;
+    margin:0px;
+    border:1px black solid;
+    float:left;
+}
+.cell:focus {
+    background-color: yellow;
+}
+.container {
+    position:absolute;
+    top:0px;
+    left:0px;
+    height: 600px;
+    width: 600px;
+   /*border:1px black solid;*/
+}
